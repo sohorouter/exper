@@ -7,6 +7,6 @@
 	<buildSpec>
 	</buildSpec>
 	<natures>
-		<nature>com.aptana.ide.project.nature.web</nature>
+		<nature>com.aptana.ide.framework.jaxernature</nature>
 	</natures>
 </projectDescription>
