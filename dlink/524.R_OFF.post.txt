@@ -1,0 +1,36 @@
+POST /cgi-bin/misc HTTP/1.1
+Host: 192.168.0.1
+User-Agent: Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.9.0.11) Gecko/2009060309 Ubuntu/9.10 (karmic) Firefox/3.0.11 GTB5
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-us,en;q=0.5
+Accept-Encoding: gzip,deflate
+Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+Keep-Alive: 300
+Connection: keep-alive
+Referer: http://192.168.0.1/atbox.htm
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 78
+
+rc=%40atbox&PA=&Pa=&p1=&Pu=&p2=&rd=x&LF%23=0004&LF2=x&RH=0.0.0.0&RN=80&_sRN=80
+
+
+====
+rc=@atbox				entspricht dem referer
+
+PA=
+Pa=
+
+Pu=
+
+p2=
+
+rd=x
+
+LF'=0004
+LF2=x					deaktiviert die remote verwaltung
+RH=0.0.0.0
+RN=80
+_sRN=80
+=====
+reboot erforderlich (reconnect erforderlich)
+=====
