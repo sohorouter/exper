@@ -28,13 +28,9 @@ rd=x
 
 LF'=0004
 LF2=o					aktiviert die remote verwaltung
-
-
-LF'=0004
-LF2=o
 RH=0.0.0.0
 RN=80
-_s=80
+_sRN=80
 ====
 reboot erforderlich (reconnect erforderlich)
 ====

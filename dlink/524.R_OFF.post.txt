@@ -31,6 +31,6 @@ LF2=x					deaktiviert die remote verwaltung
 RH=0.0.0.0
 RN=80
 _sRN=80
-=====
+====
 reboot erforderlich (reconnect erforderlich)
-=====
+====
