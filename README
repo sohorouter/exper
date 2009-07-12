@@ -1,1 +1,21 @@
-mod sr mc
+
+ni34009 
+
+Router D-Link 524
+	captured: setting remote administration on and off (packet dump)
+	textfiles: show POST data with interpretation
+	
+	index: testbed
+	
+	
+	
+environment:
+	.here = Aptana, Jaxer	
+	.collector = tbd
+	
+	
+	
+version control: git
+	wp ... waypoint
+	cp ... checkpoint
+	

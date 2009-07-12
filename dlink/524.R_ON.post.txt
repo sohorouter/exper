@@ -24,25 +24,18 @@ Pu=						passwort fuer user
 
 p2=
 
-<<<<<<< HEAD:dlink/524.R_ON.post.txt
 rd=x
 
 LF'=0004
 LF2=o					aktiviert die remote verwaltung
-=======
-rd=x					aktiviert die remote verwaltung
+
 
 LF'=0004
 LF2=o
->>>>>>> origin/master:dlink/524.R_ON.post.txt
 RH=0.0.0.0
 RN=80
 _s=80
-=====
-<<<<<<< HEAD:dlink/524.R_ON.post.txt
+====
 reboot erforderlich (reconnect erforderlich)
-=======
-reboot erforderlich
->>>>>>> origin/master:dlink/524.R_ON.post.txt
-=====
+====
 
