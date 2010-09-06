@@ -1,0 +1,336 @@
+<HTML>
+    <HEAD>
+        <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+        <SCRIPT LANGUAGE=JAVASCRIPT>
+            <!--
+            var mn = "524"
+            var lg = "de"
+            var ss = "801"
+            var B = "V2.07,,DE|,,"
+            var L = "V3.12,b00,DE|,,|,,"
+            wlv = true;
+            wlva = new Array('4', '0', true)
+            WEPv = new Array('CHECKED', '', '', '')
+            wtv = ''
+            //-->
+        </SCRIPT>
+        <SCRIPT LANGUAGE=JAVASCRIPT SRC='/524.js?rc=&_ZT=514D'>
+        </SCRIPT>
+        <SCRIPT LANGUAGE=JAVASCRIPT SRC='/de1.js?rc=&_ZT=514D'>
+        </SCRIPT>
+        <SCRIPT LANGUAGE=JAVASCRIPT SRC='/de2.js?rc=&_ZT=514D'>
+        </SCRIPT>
+        <SCRIPT LANGUAGE=JAVASCRIPT SRC='/de3.js?rc=&_ZT=514D'>
+        </SCRIPT>
+        <SCRIPT LANGUAGE=JAVASCRIPT SRC='/dptzl.js?rc=&_ZT=514D'>
+        </SCRIPT>
+        <SCRIPT LANGUAGE=JAVASCRIPT SRC='/lm2.js?rc=&_ZT=514D'>
+        </SCRIPT>
+        <style type="text/css">
+        <!--
+        
+        body, pre, p, td, th, ol, ul, li {
+            font-family: Helvetica, Arial, Sans Serif;
+            font-size: 9pt;
+        }
+        
+        input, select, option {
+            font-family: Helvetica, Arial, Sans Serif;
+            font-size: 8pt;
+        }
+        
+        A {
+            text-decoration: none;
+        } .logoutbut {
+            width: 91px;
+        }
+        -->
+        </style>
+    </HEAD>
+    <BODY BGCOLOR=WHITE TEXT=#000 leftmargin=0 topmargin=0 marginwidth=0 marginheight=0>
+        <SCRIPT LANGUAGE=JAVASCRIPT>
+            <!--
+            
+            var v = "@atbox"
+            var v0 = v.substring(1, v.length)
+            function err(){
+                var em = "";
+                if ((v0 == "ddns") || (v0 == "dmzh") || (v0 == "frwl") || (v0 == "iopf")) {
+                
+                }
+                if (v0 == "prim") {
+                
+                
+                
+                
+                
+                
+                }
+                if (v0 == "ipad") {
+                
+                
+                }
+                if (v0 == "dhcp") {
+                
+                
+                
+                
+                }
+                if (v0 == "spap") {
+                
+                
+                }
+                if (v0 == "smap") {
+                
+                
+                }
+                if (v0 == "snmp") {
+                }
+                if (v0 == "rtab") {
+                }
+                if (v0 == "atbox") {
+                
+                
+                }
+                if (v0 == "pmac") {
+                }
+                if (v0 == "sntp") {
+                
+                
+                
+                
+                
+                
+                }
+                if (v0 == "wlap") {
+                
+                
+                
+                
+                
+                
+                
+                }
+                if (v0 == "wlpe") {
+                
+                
+                
+                
+                }
+                
+                if (v0 == "system") {
+                
+                
+                
+                }
+                if (v0 == "misc") {
+                }
+                if (v0 == "logs") {
+                }
+                return em;
+            }
+            
+            var rhstr = "192.168.0.154", listr = "192.168.0.1";
+            function BackIP(){
+                webip = String(location).split("/")
+                if (rhstr == "0.0.0.0") 
+                    rhstr = webip[2]
+                rhstr = rhstr.substr(0, rhstr.lastIndexOf("."));
+                listr = listr.substr(0, listr.lastIndexOf("."));
+                if ((rhstr == listr) || ("" == "cip")) 
+                    return "192.168.0.1"
+                else 
+                    return "10.251.41.134"
+            }
+            
+            function goback(v){
+                var loc = loc1 = ""
+                var svpn = v0.substr(0, 3)
+                if (svpn == "vpn") 
+                    loc1 = "/cgi-bin/setv?rc=_&id1=&rd=" + v0 + "&rf=&id=&Eb=&si=&_from="
+                else {
+                    if (v0 == "wlap") {
+                        //---klvv("4","0")  return "rc="+klv+"&rf="+VV1
+                        loc1 = "/wlap.htm?" + klvv('4', '0', 'CHECKED', '', '', '')
+                    }
+                    if (v0 == "prim") 
+                        loc1 = "&rf="
+                    
+                    if (v0 == "iopf") 
+                        loc1 = "&di=0"
+                    if (v0 == "pmac") 
+                        loc1 = "&Eb=0&D="
+                    if (v0 == "mis") 
+                        v0 += "c"
+                    if (v0 == "wlpe") 
+                        loc1 = "&rf=0001"
+                    loc = v0 + ".htm?rc=_"
+                }
+                prtcl = "http:" + "/" + "/"
+                enterIP = BackIP()
+                webip = String(location).split("/")
+                if (webip[2].indexOf(":") != -1) {
+                    wpts = webip[2].split(":")
+                    wpt = ":" + wpts[1]
+                }
+                else 
+                    wpt = ""
+                if ((("CHECKED" != "CHECKED") || ("80" == "80")) || (prtcl == "https:/" + "/")) 
+                    tt = "";
+                else 
+                    if ("@atbox" == "Eatbox") 
+                        tt = wpt
+                    else 
+                        tt = ":80";
+                loc = prtcl + enterIP + tt + "/" + v0 + ".htm?rc=_" + loc1
+                
+                if (loc1.substring(0, 1) == "/") {
+                    loc2 = prtcl + enterIP + tt + loc1
+                    loc3 = loc1
+                }
+                else {
+                    loc2 = prtcl + enterIP + tt + "/" + v0 + ".htm?rc=_" + loc1
+                    loc3 = "/" + v0 + ".htm?rc=_" + loc1
+                }
+                if ((rhstr != listr) && (rhstr != "0.0.0")) {
+                    if ("CHECKED" == "CHECKED") {
+                        if (location.port != "80") 
+                            top.location = prtcl + location.hostname + tt + "/";
+                        else {
+                            GURL(loc3)
+                        }
+                    }
+                    else {
+                        top.location = prtcl + enterIP
+                    }
+                }
+                else 
+                    if (v == "Eatbox") {
+                        GURL(loc2)
+                    }
+                    else 
+                        if ((v == "Rsystem") ||
+                        (v == "Oatbox") ||
+                        (v == "@ipad") ||
+                        (location.hostname != enterIP) ||
+                        (("CHECKED" == "CHECKED") && (location.port != "80") && (prtcl != "https:/" + "/")) ||
+                        (("CHECKED" == "CHECKED") && (location.port == "") && (prtcl != "https:/" + "/")) ||
+                        ((location.port != "") && ("CHECKED" == "") && (prtcl != "https:/" + "/"))) {
+                            top.location = prtcl + enterIP + tt;
+                        }
+                        else {
+                            GURL(loc2)
+                        }
+            }
+            
+            var ii0 = false;
+            function show_save(){
+                var ii = false;
+                var no_reboot = new Array("iopf", "rtab", "logs", "sntp", "snmp", "menu1", "smap", "spap", "uctl", "pmac", "dctl", "frwl", "ddns", "dmzh", "misc", "dhcp")
+                for (var i = 0; i < no_reboot.length; i++) {
+                    if (no_reboot[i] == v0) {
+                        ii = true;
+                        break;
+                    }
+                }
+                if (err() != "") {
+                    dw(err());
+                    ii = true;
+                    
+                }
+                else {
+                    if (ii) 
+                        dw(x[51]);
+                    else {
+                        var loc = "";
+                        dw(x[40])
+                        ls = location.search
+                        lif = ls.lastIndexOf("=")
+                        if ((lif != -1) && (v0 == "misc") && (ls.substring(lif - 2, lif) == "XF")) {
+                            loc = "&XF=" + ls.substring(lif + 1, ls.length)
+                        }
+                        var t = new Date();
+                        
+                        locrebo = "v0=@atbox&v1=&v2=&v3=&v4=&v5=&v6=show&rd=x"
+                        if (top.frames.length == 0) 
+                            setTimeout("GURL('/cgi-bin/rebo?'+locrebo)", 800)
+                        else 
+                        
+                            parent.frames[0].location = "/cgi-bin/rebo?D=" + loc + '&ZT=' + t.getTime();
+                    }
+                }
+                return ii
+            }
+            
+            //-->
+        </SCRIPT>
+        <TABLE WIDTH=765 BORDER=0 CELLSPACING=0 CELLPADDING=0 ALIGN=CENTER>
+            <TR VALIGN=TOP ALIGN=RIGHT BGCOLOR=#CCCCCC>
+                <TD>
+                    <SCRIPT LANGUAGE=JAVASCRIPT>
+                        <!--
+                        showImg('main')
+                        //-->
+                    </SCRIPT>
+                </TD>
+            </TR>
+            <TR BGCOLOR=#CCCCCC>
+                <TD WIDTH=765 HEIGHT=200 ALIGN=CENTER VALIGN=MIDDLE BACKGROUND=/rbg.gif>
+                    <!---->
+                    <!--  -->
+                    <SCRIPT LANGUAGE=JAVASCRIPT>
+                        <!--
+                        
+                        ii0 = show_save()
+                        
+                        //-->
+                    </SCRIPT>
+                    <SCRIPT LANGUAGE=JAVASCRIPT>
+                        <!--
+                        var v = "@atbox"
+                        var a = "x"
+                        var v0 = v.substring(1, v.length)
+                        var v01 = v.substring(1, v.length - 1)
+                        
+                        locs = "v0=@atbox&v1=&v2=&v3=&v4=&v5=&v6=show"
+                        
+                        if (ii0 || (false)) {
+                            //--dw("<P>V0=@atbox  V1=  V2=  V3=  V4=")
+                            if ((v == "_iopf") || (v == "_frwl") || (v == "_smap")) 
+                                dw("<P><A HREF=javascript:history.go(-1)><IMG SRC=/" + ic + "cont.gif BORDER=0></A>")
+                            else 
+                                if ((v == "Esmap") || (v == "Espap") || (v == "Eatbox")) 
+                                    dw("<P><A HREF=javascript:goback('@atbox')><IMG SRC=/" + ic + "cont.gif BORDER=0></A>")
+                                else 
+                                    dw("<P><A HREF=javascript:goback('@atbox')><IMG SRC=/" + ic + "cont.gif BORDER=0></A>")
+                        }
+                        else {
+                        
+                            wsec = 3000
+                            
+                            enterIP = BackIP()
+                            if ((("CHECKED" != "CHECKED") || ("80" == "80"))) 
+                                tt = "";
+                            else 
+                                tt = ":80";
+                            setTimeout("location='http:/" + "/" + enterIP + tt + "/x.htm?" + locs + "'", wsec);
+                            
+                        }
+                        //-->
+                    </SCRIPT>
+                    <!--P><A HREF=javascript:goback("@atbox")><IMG SRC=/cont.gif BORDER=0></A-->
+                    <P>
+                </TD>
+            </TR>
+            <TR BGCOLOR=CCCCCC VALIGN=TOP HEIGHT=7>
+                <TD BACKGROUND=/bot.gif HEIGHT=7 WIDTH=765>
+                    <IMG SRC=/sp.gif WIDTH=765 HEIGHT=2>
+                </TD>
+            </TR>
+        </TABLE>
+        <SCRIPT LANGUAGE=JAVASCRIPT>
+            <!--
+            //-->
+        </SCRIPT>
+    </BODY>
+</HTML>
